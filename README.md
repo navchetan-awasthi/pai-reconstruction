@@ -1,4 +1,4 @@
-# Deep Learning for Photoacoustic Imaging Reconstruction
+# Transformer-Based Optical Attenuation Compensation and Denoising in Photoacoustic Imaging
 
 Implementation of models for the work presented in the following articles.
 
