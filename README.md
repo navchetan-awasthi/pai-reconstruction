@@ -2,6 +2,8 @@
 
 Implementation of models for the work presented in the following articles.
 
+Cristian P. Jensen, Kalloor Joseph Francis, and Navchetan Awasthi, "Transformer-Based Optical Attenuation Compensation and Denoising in Photoacoustic Imaging", (Under Review)
+
 Cristian P. Jensen, Kalloor Joseph Francis, and Navchetan Awasthi "Image depth improvement in photoacoustic imaging using transformer based generative adversarial networks", Proc. SPIE PC12842, Photons Plus Ultrasound: Imaging and Sensing 2024, PC128421V (13 March 2024); https://doi.org/10.1117/12.3001537
 
 Please cite this if you find this useful in your work.
@@ -11,14 +13,9 @@ Please cite this if you find this useful in your work.
 The following image-to-image translation models are implemented using PyTorch
 and PyTorch Lightning:
  - Pix2Pix [(Isola et al. 2018)](https://arxiv.org/abs/1611.07004);
- - Attention U-net [(Oktay et al. 2018)](https://arxiv.org/abs/1804.03999);
  - Residual U-net with the following basic blocks:
    - Res18 [(He et al. 2015)](https://arxiv.org/abs/1512.03385);
-   - Res50 [(He et al. 2015)](https://arxiv.org/abs/1512.03385);
-   - ResV2 [(He et al. 2016)](https://arxiv.org/abs/1603.05027);
-   - ResNeXt [(Xie et al. 2017)](https://arxiv.org/abs/1611.05431).
  - Trans U-net [(Chen et al. 2021)](https://arxiv.org/abs/2102.04306);
- - Palette [(Saharia et al. 2022)](https://arxiv.org/abs/2111.05826).
 
 More models can easily be added by using the `UnetWrapper` class.
 
@@ -72,6 +69,4 @@ metrics and information about the model. The following metrics are reported:
  - Mean RMSE;
  - FLOPs;
  - Parameter count;
- - SSIM over depth (vertically) of the image (this is only relevant for PAI
-   reconstruction).
  - Outputs of the model.
