@@ -67,6 +67,4 @@ metrics and information about the model. The following metrics are reported:
  - Mean SSIM;
  - Mean PSNR;
  - Mean RMSE;
- - FLOPs;
- - Parameter count;
- - Outputs of the model.
+
